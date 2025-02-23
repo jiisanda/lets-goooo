@@ -1,0 +1,18 @@
+# Ignore the bin directory
+bin/
+
+# Ignore the Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore the Go test binaries
+*.test
+
+# Ignore the Go vendor directory
+vendor/
+
+# Ignore the Go module cache
+go.sum
